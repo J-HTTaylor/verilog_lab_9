@@ -1,0 +1,5 @@
+Time resolution is 1 ps
+Stopped at time : 24 ns : File "C:/Users/james/Uni_work/Semester_4/ECE 230L/Lab_9/test.v" Line 99
+Stopped at time : 26 ns : File "C:/Users/james/Uni_work/Semester_4/ECE 230L/Lab_9/test.v" Line 106
+PASSED test
+$finish called at time : 31 ns : File "C:/Users/james/Uni_work/Semester_4/ECE 230L/Lab_9/test.v" Line 126

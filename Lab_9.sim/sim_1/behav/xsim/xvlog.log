@@ -1,0 +1,18 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/james/Uni_work/Semester_4/ECE 230L/Lab_9/Lab_9.srcs/sources_1/new/D-latch.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Dlatch
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/james/Uni_work/Semester_4/ECE 230L/Lab_9/Lab_9.srcs/sources_1/new/byte_mem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module byte_mem
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/james/Uni_work/Semester_4/ECE 230L/Lab_9/Lab_9.srcs/sources_1/new/data_demux.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module data_demux
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/james/Uni_work/Semester_4/ECE 230L/Lab_9/Lab_9.srcs/sources_1/new/demux.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module enable_demux
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/james/Uni_work/Semester_4/ECE 230L/Lab_9/Lab_9.srcs/sources_1/new/mem_mux.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mem_mux
+WARNING: [VRFC 10-9336] redeclaration of ANSI port 'result' is not allowed [C:/Users/james/Uni_work/Semester_4/ECE 230L/Lab_9/Lab_9.srcs/sources_1/new/mem_mux.v:13]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/james/Uni_work/Semester_4/ECE 230L/Lab_9/Lab_9.srcs/sources_1/new/memory_system.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module memory_system
+WARNING: [VRFC 10-8956] extra semicolon is not allowed here in this dialect; use SystemVerilog mode instead [C:/Users/james/Uni_work/Semester_4/ECE 230L/Lab_9/Lab_9.srcs/sources_1/new/memory_system.v:56]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/james/Uni_work/Semester_4/ECE 230L/Lab_9/Lab_9.srcs/sources_1/new/top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/james/Uni_work/Semester_4/ECE 230L/Lab_9/test.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module test

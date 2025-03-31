@@ -1,0 +1,797 @@
+$date
+   Thu Mar 27 14:29:38 2025
+$end
+
+$version
+  2024.2.0
+$end
+
+$timescale
+  1ps
+$end
+
+$scope module test $end
+$var reg 1 ! D $end
+$var reg 1 " E $end
+$var reg 8 # data [7:0] $end
+$var reg 2 $ addr [1:0] $end
+$var reg 16 % sw [15:0] $end
+$var wire 16 & led [15:0] $end
+$var wire 1 ' Q $end
+$var wire 1 ( NotQ $end
+$var wire 8 ) memory [7:0] $end
+$scope module uut $end
+$var wire 16 * sw [15:0] $end
+$var wire 1 + btnC $end
+$var wire 16 & led [15:0] $end
+$scope module Dlatch_init $end
+$var wire 1 , Data $end
+$var wire 1 + Enable $end
+$var reg 1 - Q $end
+$var wire 1 . notQ $end
+$upscope $end
+$scope module system_init $end
+$var wire 8 / data [15:8] $end
+$var wire 1 + store $end
+$var wire 2 0 addr [7:6] $end
+$var wire 8 1 memory [15:8] $end
+$var wire 1 2 enable_A $end
+$var wire 1 3 enable_B $end
+$var wire 1 4 enable_C $end
+$var wire 1 5 enable_D $end
+$var wire 8 6 data_A [7:0] $end
+$var wire 8 7 data_B [7:0] $end
+$var wire 8 8 data_C [7:0] $end
+$var wire 8 9 data_D [7:0] $end
+$var wire 8 : mem_A [7:0] $end
+$var wire 8 ; mem_B [7:0] $end
+$var wire 8 < mem_C [7:0] $end
+$var wire 8 = mem_D [7:0] $end
+$scope module enable_init $end
+$var wire 1 + enable_sig $end
+$var wire 2 0 de_sel [7:6] $end
+$var reg 1 > A $end
+$var reg 1 ? B $end
+$var reg 1 @ C $end
+$var reg 1 A D $end
+$upscope $end
+$scope module data_init $end
+$var wire 8 / data [15:8] $end
+$var wire 2 0 de_sel [7:6] $end
+$var reg 8 B A [7:0] $end
+$var reg 8 C B [7:0] $end
+$var reg 8 D C [7:0] $end
+$var reg 8 E D [7:0] $end
+$upscope $end
+$scope module mem_init_A $end
+$var wire 8 6 data [7:0] $end
+$var wire 1 2 store $end
+$var wire 8 : memory [7:0] $end
+$scope module genblk1[0].Dlatch_init $end
+$var wire 1 F Data $end
+$var wire 1 2 Enable $end
+$var reg 1 G Q $end
+$var wire 1 H notQ $end
+$upscope $end
+$scope module genblk1[1].Dlatch_init $end
+$var wire 1 I Data $end
+$var wire 1 2 Enable $end
+$var reg 1 J Q $end
+$var wire 1 K notQ $end
+$upscope $end
+$scope module genblk1[2].Dlatch_init $end
+$var wire 1 L Data $end
+$var wire 1 2 Enable $end
+$var reg 1 M Q $end
+$var wire 1 N notQ $end
+$upscope $end
+$scope module genblk1[3].Dlatch_init $end
+$var wire 1 O Data $end
+$var wire 1 2 Enable $end
+$var reg 1 P Q $end
+$var wire 1 Q notQ $end
+$upscope $end
+$scope module genblk1[4].Dlatch_init $end
+$var wire 1 R Data $end
+$var wire 1 2 Enable $end
+$var reg 1 S Q $end
+$var wire 1 T notQ $end
+$upscope $end
+$scope module genblk1[5].Dlatch_init $end
+$var wire 1 U Data $end
+$var wire 1 2 Enable $end
+$var reg 1 V Q $end
+$var wire 1 W notQ $end
+$upscope $end
+$scope module genblk1[6].Dlatch_init $end
+$var wire 1 X Data $end
+$var wire 1 2 Enable $end
+$var reg 1 Y Q $end
+$var wire 1 Z notQ $end
+$upscope $end
+$scope module genblk1[7].Dlatch_init $end
+$var wire 1 [ Data $end
+$var wire 1 2 Enable $end
+$var reg 1 \ Q $end
+$var wire 1 ] notQ $end
+$upscope $end
+$upscope $end
+$scope module mem_init_B $end
+$var wire 8 7 data [7:0] $end
+$var wire 1 3 store $end
+$var wire 8 ; memory [7:0] $end
+$scope module genblk1[0].Dlatch_init $end
+$var wire 1 ^ Data $end
+$var wire 1 3 Enable $end
+$var reg 1 _ Q $end
+$var wire 1 ` notQ $end
+$upscope $end
+$scope module genblk1[1].Dlatch_init $end
+$var wire 1 a Data $end
+$var wire 1 3 Enable $end
+$var reg 1 b Q $end
+$var wire 1 c notQ $end
+$upscope $end
+$scope module genblk1[2].Dlatch_init $end
+$var wire 1 d Data $end
+$var wire 1 3 Enable $end
+$var reg 1 e Q $end
+$var wire 1 f notQ $end
+$upscope $end
+$scope module genblk1[3].Dlatch_init $end
+$var wire 1 g Data $end
+$var wire 1 3 Enable $end
+$var reg 1 h Q $end
+$var wire 1 i notQ $end
+$upscope $end
+$scope module genblk1[4].Dlatch_init $end
+$var wire 1 j Data $end
+$var wire 1 3 Enable $end
+$var reg 1 k Q $end
+$var wire 1 l notQ $end
+$upscope $end
+$scope module genblk1[5].Dlatch_init $end
+$var wire 1 m Data $end
+$var wire 1 3 Enable $end
+$var reg 1 n Q $end
+$var wire 1 o notQ $end
+$upscope $end
+$scope module genblk1[6].Dlatch_init $end
+$var wire 1 p Data $end
+$var wire 1 3 Enable $end
+$var reg 1 q Q $end
+$var wire 1 r notQ $end
+$upscope $end
+$scope module genblk1[7].Dlatch_init $end
+$var wire 1 s Data $end
+$var wire 1 3 Enable $end
+$var reg 1 t Q $end
+$var wire 1 u notQ $end
+$upscope $end
+$upscope $end
+$scope module mem_init_C $end
+$var wire 8 8 data [7:0] $end
+$var wire 1 4 store $end
+$var wire 8 < memory [7:0] $end
+$scope module genblk1[0].Dlatch_init $end
+$var wire 1 v Data $end
+$var wire 1 4 Enable $end
+$var reg 1 w Q $end
+$var wire 1 x notQ $end
+$upscope $end
+$scope module genblk1[1].Dlatch_init $end
+$var wire 1 y Data $end
+$var wire 1 4 Enable $end
+$var reg 1 z Q $end
+$var wire 1 { notQ $end
+$upscope $end
+$scope module genblk1[2].Dlatch_init $end
+$var wire 1 | Data $end
+$var wire 1 4 Enable $end
+$var reg 1 } Q $end
+$var wire 1 ~ notQ $end
+$upscope $end
+$scope module genblk1[3].Dlatch_init $end
+$var wire 1 !! Data $end
+$var wire 1 4 Enable $end
+$var reg 1 "! Q $end
+$var wire 1 #! notQ $end
+$upscope $end
+$scope module genblk1[4].Dlatch_init $end
+$var wire 1 $! Data $end
+$var wire 1 4 Enable $end
+$var reg 1 %! Q $end
+$var wire 1 &! notQ $end
+$upscope $end
+$scope module genblk1[5].Dlatch_init $end
+$var wire 1 '! Data $end
+$var wire 1 4 Enable $end
+$var reg 1 (! Q $end
+$var wire 1 )! notQ $end
+$upscope $end
+$scope module genblk1[6].Dlatch_init $end
+$var wire 1 *! Data $end
+$var wire 1 4 Enable $end
+$var reg 1 +! Q $end
+$var wire 1 ,! notQ $end
+$upscope $end
+$scope module genblk1[7].Dlatch_init $end
+$var wire 1 -! Data $end
+$var wire 1 4 Enable $end
+$var reg 1 .! Q $end
+$var wire 1 /! notQ $end
+$upscope $end
+$upscope $end
+$scope module mem_init_D $end
+$var wire 8 9 data [7:0] $end
+$var wire 1 5 store $end
+$var wire 8 = memory [7:0] $end
+$scope module genblk1[0].Dlatch_init $end
+$var wire 1 0! Data $end
+$var wire 1 5 Enable $end
+$var reg 1 1! Q $end
+$var wire 1 2! notQ $end
+$upscope $end
+$scope module genblk1[1].Dlatch_init $end
+$var wire 1 3! Data $end
+$var wire 1 5 Enable $end
+$var reg 1 4! Q $end
+$var wire 1 5! notQ $end
+$upscope $end
+$scope module genblk1[2].Dlatch_init $end
+$var wire 1 6! Data $end
+$var wire 1 5 Enable $end
+$var reg 1 7! Q $end
+$var wire 1 8! notQ $end
+$upscope $end
+$scope module genblk1[3].Dlatch_init $end
+$var wire 1 9! Data $end
+$var wire 1 5 Enable $end
+$var reg 1 :! Q $end
+$var wire 1 ;! notQ $end
+$upscope $end
+$scope module genblk1[4].Dlatch_init $end
+$var wire 1 <! Data $end
+$var wire 1 5 Enable $end
+$var reg 1 =! Q $end
+$var wire 1 >! notQ $end
+$upscope $end
+$scope module genblk1[5].Dlatch_init $end
+$var wire 1 ?! Data $end
+$var wire 1 5 Enable $end
+$var reg 1 @! Q $end
+$var wire 1 A! notQ $end
+$upscope $end
+$scope module genblk1[6].Dlatch_init $end
+$var wire 1 B! Data $end
+$var wire 1 5 Enable $end
+$var reg 1 C! Q $end
+$var wire 1 D! notQ $end
+$upscope $end
+$scope module genblk1[7].Dlatch_init $end
+$var wire 1 E! Data $end
+$var wire 1 5 Enable $end
+$var reg 1 F! Q $end
+$var wire 1 G! notQ $end
+$upscope $end
+$upscope $end
+$scope module mem_mux_init $end
+$var wire 2 0 sel [7:6] $end
+$var wire 8 : A [7:0] $end
+$var wire 8 ; B [7:0] $end
+$var wire 8 < C [7:0] $end
+$var wire 8 = D [7:0] $end
+$var wire 9 H! result [8:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+
+#0
+$dumpvars
+0!
+0!!
+0"
+x"!
+b0 #
+x#!
+b0 $
+0$!
+b0 %
+x%!
+bxzzzzzzxx &
+x&!
+x'
+0'!
+x(
+x(!
+bx )
+x)!
+b0 *
+0*!
+0+
+x+!
+0,
+x,!
+x-
+0-!
+x.
+x.!
+b0 /
+x/!
+b0 0
+00!
+bx 1
+x1!
+02
+x2!
+03
+03!
+04
+x4!
+05
+x5!
+b0 6
+06!
+b0 7
+x7!
+b0 8
+x8!
+b0 9
+09!
+bx :
+x:!
+bx ;
+x;!
+bx <
+0<!
+bx =
+x=!
+0>
+x>!
+0?
+0?!
+0@
+x@!
+0A
+xA!
+b0 B
+0B!
+b0 C
+xC!
+b0 D
+xD!
+b0 E
+0E!
+0F
+xF!
+xG
+xG!
+xH
+b0xxxxxxxx H!
+0I
+xJ
+xK
+0L
+xM
+xN
+0O
+xP
+xQ
+0R
+xS
+xT
+0U
+xV
+xW
+0X
+xY
+xZ
+0[
+x\
+x]
+0^
+x_
+x`
+0a
+xb
+xc
+0d
+xe
+xf
+0g
+xh
+xi
+0j
+xk
+xl
+0m
+xn
+xo
+0p
+xq
+xr
+0s
+xt
+xu
+0v
+xw
+xx
+0y
+xz
+x{
+0|
+x}
+x~
+$end
+
+#1000
+1"
+b0zzzzzz10 &
+0'
+1(
+b0 )
+1+
+0-
+1.
+b0 1
+12
+b0 :
+1>
+0G
+1H
+b0 H!
+0J
+1K
+0M
+1N
+0P
+1Q
+0S
+1T
+0V
+1W
+0Y
+1Z
+0\
+1]
+
+#2000
+0"
+0+
+02
+0>
+
+#4000
+1!
+b1 %
+b1 *
+1,
+b0 /
+b0 0
+
+#6000
+1"
+b0zzzzzz01 &
+1'
+0(
+1+
+1-
+0.
+12
+1>
+
+#7000
+0"
+0+
+02
+0>
+
+#9000
+0!
+b0 %
+b0 *
+0,
+b0 /
+b0 0
+
+#11000
+b11 #
+b1100000000 %
+b1100000000 *
+0,
+b11 /
+b0 0
+b11 6
+b11 B
+1F
+1I
+0L
+0O
+0R
+0U
+0X
+0[
+
+#12000
+1"
+b11zzzzzz10 &
+0'
+1(
+b11 )
+1+
+0-
+1.
+b11 1
+12
+b11 :
+1>
+1G
+0H
+b11 H!
+1J
+0K
+
+#13000
+0"
+0+
+02
+0>
+
+#14000
+b1100 #
+b1 $
+b110001000000 %
+bxzzzzzz10 &
+bx )
+b110001000000 *
+0,
+b1100 /
+b1 0
+bx 1
+b0 6
+b1100 7
+b0 B
+b1100 C
+0F
+b0xxxxxxxx H!
+0I
+0L
+0O
+0R
+0U
+0X
+0[
+0^
+0a
+1d
+1g
+0j
+0m
+0p
+0s
+
+#15000
+1"
+b1100zzzzzz10 &
+b1100 )
+1+
+b1100 1
+13
+b1100 ;
+1?
+b1100 H!
+0_
+1`
+0b
+1c
+1e
+0f
+1h
+0i
+0k
+1l
+0n
+1o
+0q
+1r
+0t
+1u
+
+#16000
+0"
+0+
+03
+0?
+
+#17000
+0!!
+b110000 #
+b10 $
+1$!
+b11000010000000 %
+bxzzzzzz10 &
+1'!
+bx )
+b11000010000000 *
+0*!
+0,
+0-!
+b110000 /
+b10 0
+bx 1
+b0 7
+b110000 8
+b0 C
+b110000 D
+b0xxxxxxxx H!
+0^
+0a
+0d
+0g
+0j
+0m
+0p
+0s
+0v
+0y
+0|
+
+#18000
+1"
+0"!
+1#!
+1%!
+b110000zzzzzz10 &
+0&!
+1(!
+b110000 )
+0)!
+1+
+0+!
+1,!
+0.!
+1/!
+b110000 1
+14
+b110000 <
+1@
+b110000 H!
+0w
+1x
+0z
+1{
+0}
+1~
+
+#19000
+0"
+0+
+04
+0@
+
+#20000
+0!!
+b11000000 #
+b11 $
+0$!
+b1100000011000000 %
+bxzzzzzz10 &
+0'!
+bx )
+b1100000011000000 *
+0*!
+0,
+0-!
+b11000000 /
+b11 0
+00!
+bx 1
+03!
+06!
+b0 8
+b11000000 9
+09!
+0<!
+0?!
+1B!
+b0 D
+b11000000 E
+1E!
+b0xxxxxxxx H!
+0v
+0y
+0|
+
+#21000
+1"
+b11000000zzzzzz10 &
+b11000000 )
+1+
+b11000000 1
+01!
+12!
+04!
+15
+15!
+07!
+18!
+0:!
+1;!
+b11000000 =
+0=!
+1>!
+0@!
+1A
+1A!
+1C!
+0D!
+1F!
+0G!
+b11000000 H!
+
+#22000
+0"
+0+
+05
+0A
+
+#23000
+b0 #
+b0 $
+b0 %
+b11zzzzzz10 &
+b11 )
+b0 *
+0,
+b0 /
+b0 0
+00!
+b11 1
+03!
+06!
+b0 9
+09!
+0<!
+0?!
+0B!
+b0 E
+0E!
+b11 H!
+
+#25000
+b1 $
+b1000000 %
+b1100zzzzzz10 &
+b1100 )
+b1000000 *
+0,
+b0 /
+b1 0
+b1100 1
+b1100 H!
+
+#27000
+b10 $
+b10000000 %
+b110000zzzzzz10 &
+b110000 )
+b10000000 *
+0,
+b0 /
+b10 0
+b110000 1
+b110000 H!
+
+#29000
+b11 $
+b11000000 %
+b11000000zzzzzz10 &
+b11000000 )
+b11000000 *
+0,
+b0 /
+b11 0
+b11000000 1
+b11000000 H!
